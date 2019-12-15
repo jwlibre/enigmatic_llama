@@ -1,0 +1,18 @@
+QUERIES USED:
+A) SELECT * FROM products WHERE productCode = 1949;
+B) SELECT * FROM products ORDER BY productCode DESC LIMIT 1, 1
+
+RESULT:
+Both queries returned the same values:
+productCode	productName	productLine	productScale	productVendor	productDescription
+1949	1952 Alpine Renault 1300	Classic Cars	1:10	Classic Metal Creations	Turnable front wheels; steering function; detailed interior; detailed engine;opening hood; opening trunk; opening doors; and detailed chassis.
+
+Performance:
+A) 9ms
+B) 5ms
+
+1. I wrote the first query in a manner that explicitly queries for the row(s) corresponding to productCode 1949. I knew the database is small I did not concern myself with performance.
+Nonetheless I was able to improve the performance for Query B by ordering the returned values by productCode and extracting only the second row.
+To further improve performance for a large dataset, I would set the productCode as an Index.
+
+2. I chose MySQL for the backend as it is widely-used, highly reputable and open-source RDBMS with which I am most familiar.
