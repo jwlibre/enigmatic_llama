@@ -1,0 +1,5 @@
+Clone the sample employees database repo: https://github.com/datacharmer/test_db into the backend directory, and follow the instructions to install within MySQL.
+
+The API can be accessed at localhost, port 5000.
+
+app.py interfaces with MySQL through the mysql-connector-python package.

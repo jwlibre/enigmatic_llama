@@ -1,6 +1,6 @@
 QUERIES USED:
 A) SELECT * FROM products WHERE productCode = 1949;
-B) SELECT * FROM products ORDER BY productCode DESC LIMIT 1, 1
+B) SELECT * FROM products ORDER BY productCode DESC LIMIT 1, 1;
 
 RESULT:
 Both queries returned the same values:
