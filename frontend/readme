@@ -5,3 +5,5 @@ Please find the deployed webapp at https://jwlibre.github.io/enigmatic_llama/fro
 The program is set up for the EU-West region. The region can be changed in index.html, line 22.
 
 API returns up to 100 results at a time, so there may be a delay in retrieving results depending on connection speed.
+
+Please note this webapp requires the Allow CORS: Access-Control-Allow-Origin browser extension.
