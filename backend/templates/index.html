@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employees database API</title>
+</head>
+
+<body>
+  <h1>Welcome to the Employees Database API</h1>
+  <h2>Instructions</h2>
+  <h3>Obtaining records (GET)</h3>
+  <p>
+    <i>localhost:5000/api/get</i><br>
+    Parameters may be specified in the URL:<br>
+    emp_no, first_name, last_name, gender<br>
+  </p>
+  <h3>Deleting records (DELETE)</h3>
+  <p>
+    <i>localhost:5000/api/delete</i><br>
+    Parameters may be specified in the URL:<br>
+    emp_no, first_name, last_name, gender<br>
+  </p>
+  <h3>Adding new records (POST)</h3>
+  <p>
+    <i>localhost:5000/api/add</i><br>
+    Data must be specified in JSON format in request body.<br>
+    Required fields:<br>
+    emp_no - int (e.g. 10000)<br>
+    birth_date - string (e.g. 1970-01-01)<br>
+    first_name - string (e.g. John)<br>
+    last_name - string (e.g. Smith)<br>
+    gender - character (M/F)<br>
+    hire_date - string (e.g. 1970-01-01)<br>
+  </p>
+  <h3>Updating records (PUT)</h3>
+  <p>
+    <i>localhost:5000/api/update</i><br>
+    Data must be specified in JSON format in request body.<br>
+    Records are updated based on emp_no ONLY.<br>
+    Required fields:<br>
+    emp_no - int (e.g. 10000) (of record to be updated)<br>
+    birth_date - string (e.g. 1970-01-01)<br>
+    first_name - string (e.g. John)<br>
+    last_name - string (e.g. Smith)<br>
+    gender - character (M/F)<br>
+    hire_date - string (e.g. 1970-01-01)<br>
+  </p>
+
+
+  <h3>
+
+</body>
+
+</html>

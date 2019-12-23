@@ -1,0 +1,8 @@
+{
+	"emp_no":10000,
+	"first_name":"Jeremy",
+	"last_name":"Smith",
+  "birth_date":"1990-12-12",
+  "gender":"M",
+  "hire_date":"2010-12-12"
+}
